@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+}
+svg{
+    width: 50vw;
+    height: 50vw;
+}
+.st0{fill:#BE1622;
+    stroke: #be1622;
+    stroke-miterlimit: 10;
+stroke-dashArray: 5000;
+stroke-dashoffset: 5000;
+animation-timing-function: ease-in-out;
+animation-fill-mode:backwards;
+animation-iteration-count: 1;
+animation-name: DrawLine, FadeStroke, FillIn;
+animation-duration: 5s, 5s, 5s;
+animation-delay: 4s, 5.5s, 5.5s;}
+.st1{fill:#BA874D;
+    stroke: #ba874d;
+    stroke-miterlimit: 10;
+stroke-dashArray: 5000;
+stroke-dashoffset: 5000;
+animation-timing-function: ease-in-out;
+animation-fill-mode:backwards;
+animation-iteration-count: 1;
+animation-name: DrawLine, FadeStroke, FillIn;
+animation-duration: 5s, 5s, 5s;
+animation-delay: 6.5s, 8s, 8s;}
+.st2{fill:#008D36;}
+.st3{fill:#634E42;}
+.st4{fill:#7D4E24;}
+.st5{fill:#E6332A;}
+.st6{fill:#E30613;}
+.st7{fill:#EDEDED;}
+.st8{fill:#3AAA35;}
+.st9{fill:#3C3C3B;}
+.st10{fill:#575756;}
+.st11{fill:#82AFD6;}
+.st12{fill:#1D71B8;}
+.st13{fill:#36A9E1;}
+.st14{fill:#066938;}
+.st15{fill:#B9B8B9;}
+.st16{fill:#A3A2A3;}
+.st17{fill:#D9D8D9;}
+.st18{fill:#CDCBCC;}
+.st19{fill:#80A1C5;}
+.st20{fill:#F8C3C4;}
+.st21{fill:#739AC0;}
+.st22{fill:#6391BA;}
+.st23{fill:#B093C3;}
+.st24{fill:#9E79B5;}
+.st25{fill:#BA9BC9;}
+.st26{fill:#F2F2F2;}
+.st27{fill:#FFFFFF;}
+.st28{fill:#E8E6E6;}
+.st29{fill:#7097B8;}
+.st30{fill:#95C11F;}
+.st31{fill:#47382F;}
+.st32{fill:#00A19A;}
+.st33{fill:#8F683B;}
+.st34{fill:#A4292F;}
+.st35{fill:#C1292E;}
+.st36{fill:#C49253;}
+.st37{fill:#AD8048;}
+.st38{fill:#D9A84A;}
+.st39{fill:#056734;}
+.st40{fill:#E20D18;}
+.st41{fill:#8CA6CA;}
+.st42{fill:#F9B03D;}
+.st43{fill:#808181;}
+.st44{fill:#E00825;}
+.st45{fill:#1861A9;}
+.st46{fill:#109F3D;}
+.st47{fill:#F39200;}
+.st48{fill:#936037;}
+.st49{fill:#683C11;}
+path:not([class]){
+    stroke: #000;
+    stroke-miterlimit: 10;
+stroke-dashArray: 5000;
+stroke-dashoffset: 5000;
+animation-timing-function: ease-in-out;
+animation-fill-mode:backwards;
+animation-iteration-count: 1;
+animation-name: DrawLine, FadeStroke, FillIn;
+animation-duration: 5s, 5s, 5s;
+animation-delay: 0s, 1s, 1s;
+}
+@keyframes DrawLine {
+to {
+stroke-dashOffset: 0;
+}
+}
+@keyframes FadeStroke {
+
+to {
+stroke-opacity: 0;
+}
+}
+@keyframes FillIn {
+from {
+fill-opacity: 0;
+}
+to {
+fill-opacity: 1;
+}
+}
